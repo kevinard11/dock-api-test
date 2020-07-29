@@ -3,6 +3,7 @@ python:
     - "3.6"
 services:
     - docker
+    dockerfile: C:\Users\ARD\Desktop\ac3\dock-api-test\Dockerfile
 before_script: pip install docker-compose
 script:
     - docker-compose run app sh -c "python manage.py test && flake8"
