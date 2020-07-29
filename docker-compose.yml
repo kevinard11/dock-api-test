@@ -4,8 +4,8 @@ services:
     app:
         build:
             context: .
-            # dockerfile: C:\Users\ARD\Desktop\ac3\dock-api-test\Dockerfile
-            dockerfile: Docker\Dockerfile
+            # dockerfile: C:\Users\ARD\Desktop\ac3\dock-api-test\DockerFile
+            dockerfile: DockerFile
         ports:
             - "8000:8000"
         volumes:
